@@ -1,0 +1,275 @@
+@import url(reset.css);
+
+body{
+	background: url(../images/main_bg.png);
+	font: 16px "Times New Roman", Times, serif;
+}
+
+#main{
+	width: 1634px;
+	border: 15px solid #fff;
+}
+
+.cr {
+	clear: both;
+}
+
+h1{
+	font-size: 35px;
+	padding-top: 78px;
+	padding-bottom: 13px;
+	
+}
+
+h2{
+	font-size: 24px;
+	padding-bottom: 65px;
+}
+
+
+h1, h2{
+	color: #424147;
+	text-align: center;
+}
+
+a:visited{
+	text-decoration: none;
+	border: none;
+}
+
+input{
+	border: none;
+}
+/*-----------------Header----------------------*/
+#header, #slider-logo, #content-menu, #footer_content, #bottom_content{
+	width: 1394px;
+	margin: 0 auto;
+}
+
+#logo{
+	width: 116px;
+	height: 116px;
+	float: left;
+	margin: 20px 0;
+}
+
+#navigation ul li a, #footer_navigation ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 27px 5px;
+}
+
+
+
+#navigation ul li a{
+	color: #000;
+}
+
+#navigation ul li{
+	float: left;
+	margin-left: 74px;
+	margin-top: 60px;
+}
+
+#navigation, #footer_navigation{
+	float: right;
+}
+
+#navigation ul li a:hover{
+	background: url(../images/hover.jpg) no-repeat;
+}
+
+
+/*-----------------Slider----------------------*/
+
+#slider{
+	background: url(../images/slider.jpg) no-repeat;
+	width: 1634px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#slider-logo{
+	padding: 38px 0;
+}
+
+
+/*-----------------MAIN MENU----------------------*/
+#menu_portfolio ul li{
+	float: left;
+}
+
+#menu_portfolio ul li a{
+	padding: 15px;
+	color: #424147;
+	text-decoration: none;
+	font-size: 24px;
+	margin-right: 7px;
+}
+
+#menu_portfolio ul li a:hover{
+	background: url(../images/hover.jpg) repeat-x;
+}
+
+
+/*-----------------wrapper----------------------*/
+.portfolio_images ul li, .portfolio_images ul li a{
+	width: 531px;
+	height: 350px;
+	display: block;
+
+}
+
+#wrapper{
+	margin-bottom: 40px;
+	margin-top: 53px;
+	overflow: hidden;
+}
+
+.portfolio_images ul li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 57px;
+
+}
+
+
+.portfolio_images ul li a:hover{
+	background: url(../images/img_hover.png);
+}
+
+#mr-right1, #mr-right2, #mr-right3{
+	margin-right: 0;
+}
+
+
+/*-----------------Footer----------------------*/
+#footer_main{
+	background: #414146;
+	padding-bottom: 30px;
+}
+
+#footer_bottom{
+	background: #000;
+}
+
+#footer_main{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 21px;
+}
+
+
+/*==============Content-left==================================*/
+#footer_main h2{
+	font-size: 18px;
+	color: #fff;
+	text-align: left;
+	padding: 20px 0;
+}
+
+#footer_box_left p{
+	padding-bottom: 25px;
+}
+
+#footer_link{
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 44px;
+	padding: 10px 17px;
+	background: #000;
+	text-decoration: none;
+}
+
+#footer_link:hover{
+	border-bottom: 1px solid #eeda00;
+}
+
+.footer_box{
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+#footer_box{
+	margin-right: 0;
+}
+
+#footer_box_left ul li{
+	float: left;
+	padding: 2px 4px;
+}
+
+
+/*-----------------Content-center----------------------*/
+#footer_tweets ul {
+	list-style-image: url(../images/tweets_icon.png);
+}
+
+#footer_tweets ul li{
+	padding-bottom: 5px;
+}
+
+#footer_tweets ul li a,#footer_tweets ul li p{
+	text-decoration: none;
+	color: #ffea00;
+
+}
+
+#social_row ul li{
+	float: left;
+}
+
+#social_row ul li img{
+	padding-top: 20px;
+	padding-left: 2px;
+}
+
+
+/*-----------------Contact-INFO----------------------*/
+#contact-info ul li{
+	padding: 15px 0 15px 50px;
+}
+
+#contact-info ul li a{
+	color: #ffea00;
+	text-decoration: none;
+}
+
+#input_form{
+	background: #414146;
+	border-bottom: 1px solid #ffea00;
+	margin-right: 2px;
+}
+
+
+#subscrible form input{
+	float: left;
+	color: #fff;
+	padding-top: 18px;
+	font-size: 21px;
+}
+/*-----------------Footer-BOTTOM----------------------*/
+#footer_bottom{
+	color: #fff;
+}
+
+#bottom_content{
+	padding: 24px 0 24px 24px;
+}
+
+#footer_navigation ul li a{
+	color: #dcdcdc;
+}
+
+
+
+ #footer_navigation ul li{
+ 	float: left;
+ 	padding-left: 56px;
+ 	margin-bottom: 25px;
+ }
+
+ #footer_navigation ul li a:hover{
+ 	color: #ffea00;
+ }
